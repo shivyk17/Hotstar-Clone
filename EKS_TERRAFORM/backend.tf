@@ -2,6 +2,6 @@ terraform {
   backend "s3" {
     bucket = "shiv-hosterproject" # Replace with your actual S3 bucket name
     key    = "EKS/terraform.tfstate"
-    region = "ap-east1"
+    region = "ap-south-1"
   }
 }
